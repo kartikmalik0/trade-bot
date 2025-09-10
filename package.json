@@ -1,0 +1,25 @@
+{
+  "name": "bot",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.0",
+    "canvas": "^3.2.0",
+    "chartjs-chart-financial": "^0.2.1",
+    "chartjs-node-canvas": "^5.0.0",
+    "hono": "^4.9.6",
+    "node-telegram-bot-api": "^0.66.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/node-telegram-bot-api": "^0.64.10",
+    "@types/qrcode": "^1.5.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
